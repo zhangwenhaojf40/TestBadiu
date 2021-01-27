@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:text="你好"
+        android:textStyle="bold"
+        android:paddingTop="30dp"
+        android:textSize="18dp"
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+        android:layout_height="65dp" />
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:padding="5dp"
+        android:background="#fff"
+        tl:tl_iconVisible="false"
+        tl:tl_indicator_color="#ff0000"
+        tl:tl_indicator_corner_radius="1.5dp"
+        tl:tl_indicator_height="2dp"
+        tl:tl_textSelectColor="#ff0000"
+        tl:tl_textUnselectColor="#999"
+        tl:tl_textsize="16dp" />
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
