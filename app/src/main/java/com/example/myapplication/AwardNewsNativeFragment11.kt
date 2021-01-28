@@ -123,6 +123,7 @@ class AwardNewsNativeFragment11 : BaseFragment() {
         LoadMoreModule {
         private val aq: AQuery = AQuery(activity)
         override fun convert(helper: BaseViewHolder, item: IBasicCPUData?) {
+            println("type=========${item?.type}")
             val parent = helper.getView<ViewGroup>(R.id.native_outer_view)
             var cpuView = if(parent.childCount != 0){
                 parent.getChildAt(0) as NativeCPUView

@@ -45,6 +45,7 @@
             android:configChanges="screenSize|keyboard|keyboardHidden|orientation"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity android:name=".AwardNewsNativeActivity" />
+        <activity android:name=".cpu.NativeCPUAdActivity" />
     </application>
 
 </manifest>

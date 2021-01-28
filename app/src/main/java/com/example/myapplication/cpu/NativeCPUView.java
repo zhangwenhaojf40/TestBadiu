@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.myapplication.cpu;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +17,7 @@ import com.androidquery.AQuery;
 import com.androidquery.callback.AjaxStatus;
 import com.androidquery.callback.BitmapAjaxCallback;
 import com.baidu.mobads.nativecpu.IBasicCPUData;
+import com.example.myapplication.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
